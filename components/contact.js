@@ -8,42 +8,35 @@ import { FaFigma } from "react-icons/fa";
 
 export function Contact({ experience }) {
     return (
-        <div>
+        <div className="px-4 py-16">
             <div className="flex justify-center mb-4">
                 <Tag text="Get in touch" />
             </div>
-            <div className="flex-wrap ">
+            <div className="text-center max-w-[600px] mx-auto my-8">
                 What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.
             </div>
-            {/* <div>
-                <p className="flex justify-center">What’s next? Feel free to reach out to me if you're looking for a</p>
-                <p className="flex justify-center">a developer, have a query, or simply want to connect.</p>
-            </div> */}
-            <div className="flex justify-center">
+            <div className="flex justify-center items-center mb-3">
                 <CiMail key={CiMail}/>
-                <p>
+                <b>
                     reachsagarshah@gmail.com
-                </p>
+                </b>
                 <RxCopy />
             </div>
 
-            <div className="flex justify-center">
+            <div className="flex justify-center items-center mb-3">
                 <LuPhone key ={LuPhone}/>
-                <p>
+                <b>
                     +91 8980500565
-                </p>
+                </b>
                 <RxCopy />
             </div>
-            <div className="mx-auto flex justify-center">
+            <div className="mx-auto flex justify-center mb-3">
                 <p>You may also find me on these platforms!</p>
             </div>
             <span className="flex justify-center">
                 <RiGithubLine className=" w-[36px] h-[36px]" />
                 <PiTwitterLogo className=" w-[36px] h-[36px]" />
                 <FaFigma className=" w-[36px] h-[36px]" />
-            </span>
-            <span className="flex justify-center">
-                2023 | Designed and coded with ❤️️ by Sagar Shah
             </span>
         </div>
     )

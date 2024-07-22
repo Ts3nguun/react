@@ -7,6 +7,7 @@ import { Experience } from "@/components/experience";
 import { list } from "postcss";
 import Works from "@/components/workCard";
 import { Contact } from "@/components/contact";
+import { Footer } from "@/components/footer";
 
 const experiences = [
   {
@@ -31,7 +32,7 @@ const experiences = [
 
 export default function Home() {
   return (
-    <main className="w-[1024px] m-auto">
+    <main className=" m-auto">
       <div>
         <Navigation_bar />
       </div>
@@ -56,7 +57,9 @@ export default function Home() {
       <div>
         <Contact/>
       </div>
-      
+      <div>
+        <Footer/>
+      </div>
     </main>
   );
 }

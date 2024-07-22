@@ -2,8 +2,8 @@ import { Tag } from "@/components/tag";
 
 export function Aboutme() {
     return (
-        <div className="p-[80px]">
-            <div className="flex justify-center">
+        <div className="py-16 px-4 max-w-7xl">
+            <div className="flex justify-center mb-3">
                 <Tag text="About me" />
             </div>
             <div className="md:flex gap-11">

@@ -6,9 +6,9 @@ import { SlLocationPin } from "react-icons/sl";
 
 export function Hero() {
     return (
-        <div className="md:w-full py-16 px-4 md:py-[70px] md:px-[86px] md:flex ml-20" >
+        <div className="md:w-full py-16 px-4 md:flex">
                 <img className="order-1 hidden md:block " src="images/Hero.png"/>
-                <img className="block md:hidden ml-11" src="images/Hero1.png " />
+                <img className="block md:hidden md:justify-center" src="images/Hero1.png" />
             <div className="w-full  gap-[48px]">
                 <div class="flex-wrap">
                     <p>What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.</p>
@@ -29,3 +29,5 @@ export function Hero() {
         </div>
     )
 }
+
+// md:w-full md:py-[70px] md:px-[86px] 

@@ -69,17 +69,17 @@ const icons = [
 
 export function Skills() {
     return (
-        <main className="ml-24">
-            <div className="flex justify-center">
+        <main className="">
+            <div className="flex justify-center mb-4">
                 <Tag text="About me" />
             </div>
-            <div className="grid grid-cols-3 gap-4 lg:grid-cols-8 md:m-auto ml-5">
+            <div className="grid grid-cols-3 gap-4 lg:grid-cols-8 md:m-auto ">
                 {icons.map((icon , index) => (
                 <div className="flex-col gap-2 items-center">
-                    <div>
+                    <div className="flex justify-center">
                         <img src={"./icons/" + icon.name}></img>
                     </div>
-                    <span>{icon.title}</span>
+                    <span className="flex justify-center">{icon.title}</span>
                 </div>
                 ))}
             </div>

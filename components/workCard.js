@@ -60,7 +60,7 @@ function WorkCard({ isReverse = false, work }) {
                 <div className="mb-2">{work.text} </div>
                 <div className="flex flex-wrap gap-2">
                     {work.tags.map((tags) => (
-                    <Tag key={tags} name={tags} />
+                    <Tag key={tags} text={tags} />
                     ))}
                 </div>
             </div>
