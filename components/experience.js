@@ -6,7 +6,7 @@ export function Experience({ props }) {
             <div className="flex justify-center">
                 <Tag text="Experience" />
             </div>
-            <div className="flex justify-center">
+            <div className="text-gray-600 text-center">
                 Here is a quick summary of my most recent experiences:
             </div>
 

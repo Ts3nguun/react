@@ -71,16 +71,19 @@ export function Skills() {
     return (
         <main className="">
             <div className="flex justify-center mb-4">
-                <Tag text="About me" />
+                <Tag text="Skills" />
+            </div>
+            <div className="text-gray-600 text-center">
+                The skills, tools and technologies I am really good at:
             </div>
             <div className="grid grid-cols-3 gap-4 lg:grid-cols-8 md:m-auto ">
-                {icons.map((icon , index) => (
-                <div className="flex-col gap-2 items-center">
-                    <div className="flex justify-center">
-                        <img src={"./icons/" + icon.name}></img>
+                {icons.map((icon, index) => (
+                    <div className="flex-col gap-2 items-center">
+                        <div className="flex justify-center">
+                            <img src={"./icons/" + icon.name}></img>
+                        </div>
+                        <span className="flex justify-center">{icon.title}</span>
                     </div>
-                    <span className="flex justify-center">{icon.title}</span>
-                </div>
                 ))}
             </div>
         </main>

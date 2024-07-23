@@ -1,3 +1,5 @@
+import { IoMdMenu } from "react-icons/io";
+
 export function Navigation_bar() {
     return (
         <div className="flex justify-between bg-slate-200">
@@ -13,7 +15,7 @@ export function Navigation_bar() {
             <div className="flex gap-6">
                 <div className="hidden lg:block">Change theme</div>
                 <div className="hidden lg:block">Download cv</div>
-                <div>Mobile menu</div>
+                <div><IoMdMenu  className="w-9 h-9" /></div>
             </div>
         </div>
     )

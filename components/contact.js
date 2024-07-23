@@ -12,7 +12,7 @@ export function Contact({ experience }) {
             <div className="flex justify-center mb-4">
                 <Tag text="Get in touch" />
             </div>
-            <div className="text-center max-w-[600px] mx-auto my-8">
+            <div className="text-center max-w-[600px] mx-auto my-8 text-gray-600">
                 What’s next? Feel free to reach out to me if you're looking for a developer, have a query, or simply want to connect.
             </div>
             <div className="flex justify-center items-center mb-3">

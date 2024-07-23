@@ -36,9 +36,9 @@ export default function Works() {
     return (
         <div className="max-w-6xl mx-auto">
             <div className="flex justify-center mb-4">
-                <Tag name="Work" />
+                <Tag text="Work" />
             </div>
-            <div className="mb-10 text-center">Some of the noteworthy projects I have built:</div>
+            <div className="text-gray-600 text-center">Some of the noteworthy projects I have built:</div>
             <div className="px-4">
                 {workData.map((work, index) => (
                     <WorkCard key={work.title} work={work} isReverse={index % 2 === 1} />

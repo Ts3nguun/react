@@ -9,9 +9,9 @@ export function Aboutme() {
             <div className="md:flex gap-11">
                 <div>
                     <img className="order-1 hidden md:block " src="images/Aboutme.png" />
-                    <img className="block md:hidden md:justify-center" src="images/Aboutme1.png" />
+                    <img className="block md:hidden md:justify-center mx-auto" src="images/Aboutme1.png" />
                 </div>
-                <span className="w-[584px] h-[694px]">
+                <span className="w-[584px] h-[694px] ">
                     <p>
                         Curious about me? Here you have it:
                     </p><br/>

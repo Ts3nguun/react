@@ -45,7 +45,7 @@ export default function Home() {
       <div>
         <Skills />
       </div>
-      <div className="bg-slate-50">
+      <div className="bg-slate-50 pb-8 px-5">
         <Experience/>
         {experiences.map((experience) => (
           <Card experience={experience} />
