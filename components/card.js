@@ -9,7 +9,7 @@ export function Card({ experience }) {
                 <span>{experience.endDate}</span>
             </div>
             <div className="md:w-96 h-56 lg:order-2">
-                <p>{experience.title}</p>
+                <p  className="text-[20px] ml-[-15px]">{experience.title}</p>
                 <ul className="list-disc">
                     {experience.listItems.map(item => <li>{item}</li>)}
                 </ul>

@@ -32,20 +32,21 @@ const experiences = [
 
 export default function Home() {
   return (
-    <main className=" m-auto">
+    <main>
       <div>
         <Navigation_bar />
+        
       </div>
       <div>
         <Hero />
       </div>
-      <div>
+      <div  className="bg-slate-50">
         <Aboutme />
       </div>
       <div>
         <Skills />
       </div>
-      <div className="bg-slate-50 pb-8 px-5">
+      <div className="bg-slate-50 pt-12 pb-8 px-5">
         <Experience/>
         {experiences.map((experience) => (
           <Card experience={experience} />

@@ -70,10 +70,10 @@ const icons = [
 export function Skills() {
     return (
         <main className="">
-            <div className="flex justify-center mb-4">
+            <div className="flex justify-center mb-4 mt-20 max-w-7xl mx-auto">
                 <Tag text="Skills" />
             </div>
-            <div className="text-gray-600 text-center">
+            <div className="text-gray-600 text-center mb-9">
                 The skills, tools and technologies I am really good at:
             </div>
             <div className="grid grid-cols-3 gap-4 lg:grid-cols-8 md:m-auto ">
