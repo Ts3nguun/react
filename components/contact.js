@@ -8,7 +8,7 @@ import { FaFigma } from "react-icons/fa";
 
 export function Contact({ experience }) {
     return (
-        <div className="px-4 py-16">
+        <div className="px-4 py-16" id="Contact">
             <div className="flex justify-center mb-4">
                 <Tag text="Get in touch" />
             </div>

@@ -2,7 +2,7 @@ import { Tag } from "@/components/tag";
 
 export function Aboutme() {
     return (
-        <div className="py-16 px-4 lg:w-[1280px] mx-auto ">
+        <div className="py-16 px-4 lg:w-[1280px] mx-auto " id="About">
             <div className="flex justify-center mb-3">
                 <Tag text="About me" />
             </div>

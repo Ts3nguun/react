@@ -22,19 +22,13 @@ const workData = [
         tags: ["React", "Next.js", "Typescript", "Nest.js", "PostgreSQL", "Tailwindcss", "Figma", "Cypress", "Storybook", "Git",],
         image: "images/app.png",
         link: ""
-    }, {
-        title: "Fiskil",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
-        tags: ["React", "Next.js", "Typescript", "Nest.js", "PostgreSQL", "Tailwindcss", "Figma", "Cypress", "Storybook", "Git",],
-        image: "images/app.png",
-        link: ""
-    },
+    }, 
 ]
 
 
 export default function Works() {
     return (
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto" id="Work">
             <div className="flex justify-center mb-4 mt-16">
                 <Tag text="Work" />
             </div>
