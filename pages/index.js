@@ -32,10 +32,9 @@ const experiences = [
 
 export default function Home() {
   return (
-    <main className="dark">
+    <main>
       <div>
         <Navigation_bar />
-
       </div>
       <div>
         <Hero />
